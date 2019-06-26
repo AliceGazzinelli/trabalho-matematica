@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Função do Segundo Grau</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Função do Segundo Grau</h1>
+    </header>
+    <main>
+      <h2>Resolvendo funções de 2º grau e aplicando as propriedades</h2>
+      <p>Descubra as raízes e características de uma função do tipo
+        <span class="matematica">ax<sup>2</sup> + bx + c</span>.</p>
+      <p>Coloque os valores de <span class="matematica">a</span>,
+        <span class="matematica">b</span> e <span class="matematica">c</span>
+        abaixo e clique no botão "Resolver!"</p>
+      <section id="coeficientes-da-equacao">
+        <label for="coeficiente-a" class="matematica">a: </label>
+        <input id="coeficiente-a" type="number" value="1">
+        <label for="coeficiente-b" class="matematica">b: </label>
+        <input id="coeficiente-b" type="number" value="1">
+        <label for="coeficiente-c" class="matematica">c: </label>
+        <input id="coeficiente-c" type="number" value="1">
+        <button id="botao">Resolver!</button>
+      </section>
+      <section id="resultado">
+        Aqui estão os resultados e características da sua função:
+        <ul>
+          <li>
+            <span class="matematica">Δ</span> = <input id="resultado-delta" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">Intercepta x em:</span>
+            <span class="matematica">x<sub>1</sub></span>= <input id="resultado-x1" type="number" disabled>
+            <span class="matematica">x<sub>2</sub></span>= <input id="resultado-x2" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">Intercepta y</span>
+            <span class="matematica">em:<input id="eixo-yvalor" type="number" disabled>
+            <span class="matematica">ramo:<input id="eixo-yramo" type="text" disabled>
+          </li>
+          <li>
+            <span class="matematica">Quantidade de raízes</span> = <input id="quant-raizes" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">Concavidade</span>: <input id="resp-concav" type="text" disabled>
+          </li>
+          <li>
+            <span class="matematica">V<sub>x</sub></span> = <input id="resultado-verticex" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">V<sub>y</sub></span> = <input id="resultado-verticey" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">Soma das raízes</span> = <input id="resultado-soma" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">Produto das raízes</span> = <input id="resultado-produto" type="number" disabled>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="java.js" charset="utf-8"></script>
+  </body>
+</html>
